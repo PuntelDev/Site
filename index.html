@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML</title>
+</head>
+<body>
+     <h1><strong>Introdução ao HTML</strong></h1>
+     <hr/>
+     <h2 id="indice">Indice</h2>
+     <ol>
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#tags">Tags e seus Atributos</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#links">Imagens e Links</a></li>
+    </ol>
+
+        <h2 id="estrutura">Estrutura Básica do HTML</h2>
+        <p>O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável.
+            É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura:
+        <p>Definição do documento (doctype),Cabeçalho (head) e Corpo (body).</p>
+
+<h3>Doctype - Definindo o documento</h3>
+O doctype não é uma tag HTML, mas uma instrução para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar seu site da melhor forma possível. Lembre-se: o doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu documento.
+<h3>HEAD</h3>
+Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura e fechamento tag head.
+<h3>BODY</h3>
+Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados (formulários) também se aplica neste seção do documento. 
+Dentro do elemento BODY sua estrutura de página terá os elementos semânticos da construção da sua página, onde serão declarados e identificados cabeçalhos, rodapé, conteúdo principal, etc.
+
+        </p>
+        
+     <small><a href="#indice">Indice</a></small>
+
+        <h2 id="tags">Tags e seus Atributos</h2>
+        <p>ags são o conjunto de caracteres que formam um elemento, ou seja, quando nos referenciamos à Tag "p" estamos falando disso: <p>
+
+            Existem dois tipos de Tags, as que necessitam de fechamento e as que não necessitam de fechamento.
+            
+            Para as que necessitam de fechamento, utilizamos o sinal de menor que, seguido do nome do elemento e o sinal de maior ( > ) para abertura. Para fechamento, utilizamos o sinal de menor que, seguido de barra ( / ), nome do elemento e o sinal de maior ( > ).
+            Atributos são informações que passamos na Tag para que ela se comporte da maneira esperada. Existem atributos globais (que funcionam em todas as Tags) e específicos (que são direcionados para cada Tag, através de especificação).
+
+Os Atributos possuem nome e um valor, existem Atributos que você vai usar praticamente sempre e existem outros que serão mais raros.
+        
+        </p>
+        
+     <small><a href="#indice">Indice</a></small>
+
+        <h2 id="textos">Textos</h2>
+        <p>O código HTML é o instrumento com o qual uma página é construída. Cada “string” do código contribui para modelar os aspectos exteriores do site, dando um determinado estilo ao texto, subdividindo-o em títulos, subtítulos e parágrafos. Os textos escritos para a web devem ser produzidos para apresentar o melhor conteúdo possível e devem ser formatados para decodificação por parte do navegador.</p>
+        
+     <small><a href="#indice">Indice</a></small>
+
+        <h2 id="listas">Listas</h2>
+        <p>Lista é um importante recurso de HTML, pois permite criarmos tópicos de textos para uma melhor exemplificação de um determinado assunto. São recursos extremamente usados, inclusive quando nem imaginamos que ele esta sendo usado, como no caso de menus. Hoje, boa parte dos menus em HTML é feito com listas.
+
+            Há dois tipos de listas:
+        <ul>
+           <li>Não Ordenadas</li>
+           <li>Ordenadas</li>
+        </ul>
+            
+            <p>As listas não ordenadas são usadas para listar itens, sem se preocupar com sua sequência. </p> 
+            <p>As listas ordenadas ou numeradas são usadas para indicar alguma sequência ou numeração.</p>
+        
+        
+        </p>
+        
+     <small><a href="#indice">Indice</a></small>
+
+        <h2 id="links">Imagens e Links</h2>
+        <p>No HTML, os links são definidos pela tag "a". Dentro dessa tag incluímos o atributo href (Hypertext Reference), que é o endereço de destino do link. Dentro do conteúdo da tag <a>, incluímos então o texto ou elemento que servirá como redirecionador, ou seja, que ao ser clicado, executará a função de redirecionar para o endereço dentro do atributo href.
+            No HTML, a tag responsável pela inserção de imagens é a tag "img". Porém, o HTML tecnicamente não faz a inclusão da imagem em si, o que ele faz é linkar a imagem para a página, de forma que ela seja aberta como se estivesse inserida na mesma, parecido com o processo da tag link "a". Dessa forma, podemos adicionar imagens tanto localmente quanto de forma global, ou seja, através de uma URL externa ao domínio principal. </p>
+
+     <small><a href="#indice">Indice</a></small>
+</body>
+
+</html>
